@@ -42,5 +42,8 @@ This is a web-based **University Exam Scheduler** developed using **Oracle APEX*
 4. Follow the prompts to install the app.
 5. Run the app from your App Builder dashboard.
 
+oracle appex app link:
+https://apex.oracle.com/pls/apex/r/exams_time/university-exam-scheduler/home?session=104579674596004
+
 github link:
 https://github.com/Tahir-MD/University-Exam-Scheduler-.git
