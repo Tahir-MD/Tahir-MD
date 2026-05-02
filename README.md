@@ -2,10 +2,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00A86B&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Tahir+Mahmood;AI+%26+Python+Developer;Machine+Learning+Intern;Building+Intelligent+Systems+%F0%9F%A4%96" alt="Typing SVG" />
 </p>
 
-<!-- Contact & Social Badges -->
+<!-- Contact & Social Badges - ALL 5 -->
 <p align="center">
   <a href="https://github.com/Tahir-MD"><img src="https://img.shields.io/badge/GitHub-Tahir--MD-181717?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/tahir-mahmood-781b93329/"><img src="https://img.shields.io/badge/LinkedIn-Tahir%20Mahmood-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.facebook.com/tahir.d.m.dool.2025"><img src="https://img.shields.io/badge/Facebook-Tahir%20Dool-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
   <a href="mailto:tahirdool67@gmail.com"><img src="https://img.shields.io/badge/Email-tahirdool67%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://wa.me/923054773174"><img src="https://img.shields.io/badge/WhatsApp-+923054773174-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 </p>
@@ -74,10 +75,10 @@ I'm passionate about leveraging **Generative AI**, **Machine Learning**, and **P
 | 3 | [NextEraSolution_Image_Recognition](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | Python, CNN, TensorFlow | Image Recognition on CIFAR-10 (Internship task @ NextEra) |
 | 4 | [Elevo_NLP_Intership](https://github.com/Tahir-MD/Elevo_NLP_Intership) | Python, NLP | Natural Language Processing projects during internship |
 | 5 | [CodeAlpha_ML_Intership](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | Python, Scikit-learn | Machine Learning tasks at CodeAlpha |
-| 6 | [Customer-Churn-Prediction](https://github.com/Tahir-MD/Customer-Churn-Prediction) *(if exists)* | ML, Python | Predict customer churn using classification |
-| 7 | *Add your other repos here* | *Your stack* | *Short description* |
+| 6 | *[Your Next Repo]* | *Your Tech* | *Add description* |
+| 7 | *[Your Next Repo]* | *Your Tech* | *Add description* |
 
-> 💡 **Pro Tip:** Replace row 6–7 with your actual additional repos. Run `gh repo list Tahir-MD --limit 30` in terminal to see all.
+> 💡 **Tip:** Run `gh repo list Tahir-MD --limit 30` in terminal to see all your repos and add them to rows 6+.
 
 ---
 
@@ -117,6 +118,7 @@ I'm always open to collaborating on AI/ML projects, internships, or research opp
 <p align="center">
   <a href="https://github.com/Tahir-MD"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/tahir-mahmood-781b93329/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.facebook.com/tahir.d.m.dool.2025"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
   <a href="mailto:tahirdool67@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://wa.me/923054773174"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
 </p>
@@ -128,5 +130,5 @@ I'm always open to collaborating on AI/ML projects, internships, or research opp
 </p>
 
 <p align="center">
-  <i>"Code. Learn. Build. Repeat." 🔁</i>
+  <i>"Code. Learn. Build. Connect. Repeat." 🔁</i>
 </p>
