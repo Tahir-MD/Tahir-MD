@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00A86B,100:005C3A&height=200&section=header&text=Tahir%20Mahmood&fontSize=55&fontColor=ffffff&fontAlignY=35&desc=AI%20%26%20Python%20Developer%20%7C%20Computer%20Vision%20Specialist&descAlignY=55&descSize=18&animation=fadeIn" width="100%"/>
+# 👋 Hi, I'm Tahir Mahmood
 
-</div>
+### 🤖 AI & Python Developer | 👁️ Computer Vision Specialist | 🧠 Deep Learning Engineer
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00A86B&center=true&vCenter=true&width=750&lines=👁️+Computer+Vision+Specialist;🤖+AI+%26+Deep+Learning+Developer;🧠+Generative+AI+Enthusiast;🐍+Python+%7C+TensorFlow+%7C+PyTorch;🚀+Building+Intelligent+Systems)](https://github.com/Tahir-MD)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00A86B&center=true&vCenter=true&width=750&lines=👁️+Computer+Vision+Specialist;🤖+AI+%26+Deep+Learning+Developer;🧠+Generative+AI+Enthusiast;🐍+Python+%7C+TensorFlow+%7C+PyTorch;🚀+Building+Intelligent+Systems)](https://github.com/Tahir-MD)
 
 </div>
 
@@ -29,7 +27,7 @@
 
 ## 🧬 About Me
 
-<img align="right" alt="AI Developer Coding" width="360" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif"/>
+<img align="right" alt="Coding GIF" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
 ```python
 class TahirMahmood:
@@ -38,7 +36,7 @@ class TahirMahmood:
     username   = "Tahir-MD"
     university = "Aror University"
     degree     = "BS Artificial Intelligence"
-    location   = "Sukkur, Sindh Pakistan 🇵🇰 🏠"
+    location   = "Sukkur, Sindh Pakistan 🇵🇰  (🏠)"
 
     focus = [
         "Computer Vision",
@@ -48,7 +46,7 @@ class TahirMahmood:
     ]
 
     completed_internships = [
-        "Machine Learning Intern @ CodeAlpha",
+        "ML Intern @ CodeAlpha",
         "NLP Intern @ Elevo",
         "CV Intern @ NextEra Solutions",
     ]
@@ -56,11 +54,11 @@ class TahirMahmood:
     currently_learning = [
         "Advanced CV Architectures",
         "MLOps & Model Deployment",
-        "Cloud AI Services",
         "Transformer Models",
+        "Cloud AI Services",
     ]
 
-    fun_fact = "My models learn faster than I learn new recipes 🍳"
+    fun_fact = "My models learn faster than I learn recipes 🍳"
 ```
 
 <br clear="right"/>
@@ -80,16 +78,15 @@ class TahirMahmood:
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-### 📊 Data Science & Analysis
+### 📊 Data Science
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### 🗄️ Databases & DevTools
+### 🗄️ Databases & Tools
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -104,13 +101,13 @@ class TahirMahmood:
 
 <div align="center">
 
-| 🏷️ | Project | Tech Stack | Highlights |
-|:---:|---------|:----------:|------------|
+| 🏷️ | Project | Tech Stack | Description |
+|:---:|---------|:----------:|-------------|
 | 👁️ | [**NextEraSolution Image Recognition**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` | CIFAR-10 image classification — CV Internship @ NextEra Solutions |
-| 🗣️ | [**Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `NLTK` | Natural Language Processing pipeline projects |
+| 🗣️ | [**Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `NLTK` | Natural Language Processing pipeline — NLP Internship |
 | 📈 | [**CodeAlpha ML Internship**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` | End-to-end ML tasks and predictive models |
 | 🎓 | [**University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated scheduling system for university exams |
-| 🏗️ | [**DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Comprehensive Data Structures & Algorithms implementation |
+| 🏗️ | [**DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Data Structures & Algorithms implementation |
 
 </div>
 
@@ -120,15 +117,17 @@ class TahirMahmood:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Tahir-MD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00A86B&title_color=00A86B&text_color=FFFFFF&ring_color=00A86B" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tahir-MD&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00A86B&text_color=FFFFFF" height="180"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Tahir-MD&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00A86B&title_color=00A86B&text_color=FFFFFF"/>
+&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tahir-MD&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00A86B&text_color=FFFFFF"/>
 
 </div>
 
+<br/>
+
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Tahir-MD&theme=tokyonight&hide_border=true&background=0D1117&stroke=00A86B&ring=00A86B&fire=00A86B&currStreakLabel=00A86B&sideLabels=00A86B&dates=FFFFFF)](https://github.com/Tahir-MD)
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=Tahir-MD&theme=tokyonight&hide_border=true&background=0D1117&stroke=00A86B&ring=00A86B&fire=00A86B&currStreakLabel=00A86B&sideLabels=00A86B&dates=FFFFFF" alt="GitHub Streak"/>
 
 </div>
 
@@ -148,7 +147,7 @@ class TahirMahmood:
 
 <div align="center">
 
-[![Tahir's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Tahir-MD&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00A86B&line=00A86B&point=FFFFFF&area=true&area_color=00A86B)](https://github.com/Tahir-MD)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Tahir-MD&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00A86B&line=00A86B&point=FFFFFF&area=true)](https://github.com/Tahir-MD)
 
 </div>
 
@@ -161,10 +160,10 @@ class TahirMahmood:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake.svg"/>
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
 </picture>
 
-> ⚙️ **Setup:** Add a GitHub Action to auto-generate the snake. [Guide here →](https://github.com/Platane/snk)
+> ⚙️ To enable the snake: add [Platane/snk Action](https://github.com/Platane/snk) to your repo — takes 2 minutes!
 
 </div>
 
@@ -184,19 +183,15 @@ class TahirMahmood:
 
 <div align="center">
 
-> 💡 *I'm always open to collaborating on **Computer Vision**, **AI/ML projects**, **research**, or **open-source contributions**.*
+> 💡 *Open to collaborating on **Computer Vision**, **AI/ML projects**, **research**, or **open-source contributions**.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahir-mahmood-781b93329/)
 [![Gmail](https://img.shields.io/badge/Gmail-Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tahirdool67@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Message%20Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923054773174)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow%20Me-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tahir_dmd/)
 
-</div>
-
 ---
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:005C3A,100:00A86B&height=120&section=footer&text=Code.%20Learn.%20Build.%20Repeat.&fontSize=22&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
+*"Code. Learn. Build. Repeat." 🔁*
 
 </div>
