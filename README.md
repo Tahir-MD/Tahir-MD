@@ -36,7 +36,7 @@ class TahirMahmood:
     username   = "Tahir-MD"
     university = "Aror University"
     degree     = "BS Artificial Intelligence"
-    location   = "Sukkur, Sindh Pakistan 🇵🇰  (🏠)"
+    location   = "Pakistan 🇵🇰  (Remote 🏠)"
 
     focus = [
         "Computer Vision",
@@ -97,19 +97,79 @@ class TahirMahmood:
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Top 10 Projects
+
+> 🔥 **Recent & Best** — a mix of latest work and strongest projects across AI, CV, NLP, and ML
 
 <div align="center">
 
-| 🏷️ | Project | Tech Stack | Description |
-|:---:|---------|:----------:|-------------|
-| 👁️ | [**NextEraSolution Image Recognition**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` | CIFAR-10 image classification — CV Internship @ NextEra Solutions |
-| 🗣️ | [**Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `NLTK` | Natural Language Processing pipeline — NLP Internship |
-| 📈 | [**CodeAlpha ML Internship**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` | End-to-end ML tasks and predictive models |
-| 🎓 | [**University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated scheduling system for university exams |
-| 🏗️ | [**DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Data Structures & Algorithms implementation |
+### 🆕 Recent Projects
+
+| # | Project | Tech | What It Does |
+|:---:|---------|:----:|--------------|
+| 1 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `NLTK` `Transformers` | **4 complete NLP tasks:** IMDB Sentiment Analysis (88.5% acc), News Classification (AG News 120k), BBC Topic Modeling (LDA & NMF), Resume Screening with Semantic Search |
+| 2 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Predicts loan default risk on 32,581 records — Tuned Random Forest achieved **93% accuracy** with full feature engineering pipeline |
+| 3 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN trained on CIFAR-10 (60k images, 10 classes) — custom architecture with Conv2D, MaxPooling & Dense layers |
 
 </div>
+
+<div align="center">
+
+### 🏆 Top Classic Projects
+
+| # | Project | Tech | What It Does |
+|:---:|---------|:----:|--------------|
+| 4 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated university exam scheduling system — handles clashes, room allocation & timetable generation |
+| 5 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full Data Structures & Algorithms implementation — trees, graphs, sorting, searching |
+
+</div>
+
+<div align="center">
+
+### 📌 All Repositories → [View on GitHub](https://github.com/Tahir-MD?tab=repositories)
+
+> 💡 **22 total repositories** covering Computer Vision, NLP, ML, Deep Learning, DSA & more
+
+</div>
+
+---
+
+## 🔬 Project Highlights
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 NLP — Resume Screening (Elevo Task 4)
+```
+Candidate        | ML Engineer Match
+-----------------|------------------
+Sarah Johnson    | 92.5% ✅ Best
+John Smith       | 88.3%
+Mike Chen        | 85.7%
+Emily Brown      | 79.8%
+```
+Uses **Sentence Transformers** (all-MiniLM-L6-v2)
+for semantic matching beyond keyword search.
+
+</td>
+<td width="50%" valign="top">
+
+### 💳 ML — Credit Scoring (CodeAlpha)
+```
+Model              | Accuracy
+-------------------|----------
+Logistic Reg.      | 85%
+Decision Tree      | 89%
+Random Forest      | 92%
+Tuned RF ⭐        | 93%  ← Best
+```
+Built on **32,581 records** with full
+feature engineering & hyperparameter tuning.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -163,7 +223,7 @@ class TahirMahmood:
   <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
 </picture>
 
-> ⚙️ To enable the snake: add [Platane/snk Action](https://github.com/Platane/snk) to your repo — takes 2 minutes!
+> ⚙️ Enable the snake: add [Platane/snk Action](https://github.com/Platane/snk) — takes 2 minutes!
 
 </div>
 
