@@ -4,7 +4,7 @@
 
 ### 🤖 AI & Python Developer | 👁️ Computer Vision Specialist | 🧠 Deep Learning Engineer
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00A86B&center=true&vCenter=true&width=750&lines=👁️+Computer+Vision+Specialist;🤖+AI+%26+Deep+Learning+Developer;🧠+Generative+AI+Enthusiast;🐍+Python+%7C+TensorFlow+%7C+PyTorch;🚀+Building+Intelligent+Systems)](https://github.com/Tahir-MD)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00A86B&center=true&vCenter=true&width=750&lines=👁️+Computer+Vision+Specialist;🤖+AI+%26+Deep+Learning+Developer;🌐+Streamlit+App+Builder;🐍+Python+%7C+TensorFlow+%7C+PyTorch;🚀+Building+%26+Deploying+AI+Systems)](https://github.com/Tahir-MD)
 
 </div>
 
@@ -36,7 +36,7 @@ class TahirMahmood:
     username   = "Tahir-MD"
     university = "Aror University"
     degree     = "BS Artificial Intelligence"
-    location   = "Pakistan 🇵🇰  (Remote 🏠)"
+    location   = "Sukkur, Sindh, Pakistan 🇵🇰"
 
     focus = [
         "Computer Vision",
@@ -51,6 +51,11 @@ class TahirMahmood:
         "CV Intern @ NextEra Solutions",
     ]
 
+    deployed_apps = [
+        "Sentiment Analysis App → Streamlit 🌐",
+        "Invoice Generator App  → Streamlit 🌐",
+    ]
+
     currently_learning = [
         "Advanced CV Architectures",
         "MLOps & Model Deployment",
@@ -58,7 +63,7 @@ class TahirMahmood:
         "Cloud AI Services",
     ]
 
-    fun_fact = "My models learn faster than I learn recipes 🍳"
+    fun_fact = "My models learn faster than I learn new recipes 🍳"
 ```
 
 <br clear="right"/>
@@ -80,6 +85,10 @@ class TahirMahmood:
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
+### 🌐 Web & Deployment
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
 ### 📊 Data Science
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -97,38 +106,50 @@ class TahirMahmood:
 
 ---
 
+## 🌐 Live Deployed Apps
+
+> ✅ **Production apps built & deployed on Streamlit Cloud**
+
+<div align="center">
+
+| 🚀 App | Description | Tech | Live Demo |
+|:------:|-------------|:----:|:---------:|
+| 💬 **Sentiment Analysis App** | Analyzes text sentiment — Positive, Negative or Neutral in real-time | `Python` `NLP` `NLTK` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://github.com/Tahir-MD/YOUR-SENTIMENT-REPO-NAME) |
+| 🧾 **Invoice Generator App** | Generates professional invoices as PDF with custom templates | `Python` `Streamlit` `Jinja2` `FPDF` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://github.com/Tahir-MD/YOUR-INVOICE-REPO-NAME) |
+
+</div>
+
+> 📝 **Note to Tahir:** Replace `YOUR-SENTIMENT-REPO-NAME` and `YOUR-INVOICE-REPO-NAME` above with your actual repo names, and replace the badge links with your actual Streamlit Cloud URLs (e.g. `https://your-app.streamlit.app`)
+
+---
+
 ## 🚀 Top 10 Projects
 
-> 🔥 **Recent & Best** — a mix of latest work and strongest projects across AI, CV, NLP, and ML
+> 🔥 Mix of **deployed apps**, **recent internship work** & **best classic projects**
 
 <div align="center">
 
-### 🆕 Recent Projects
+### 🌐 Deployed on Streamlit
 
-| # | Project | Tech | What It Does |
-|:---:|---------|:----:|--------------|
-| 1 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `NLTK` `Transformers` | **4 complete NLP tasks:** IMDB Sentiment Analysis (88.5% acc), News Classification (AG News 120k), BBC Topic Modeling (LDA & NMF), Resume Screening with Semantic Search |
-| 2 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Predicts loan default risk on 32,581 records — Tuned Random Forest achieved **93% accuracy** with full feature engineering pipeline |
-| 3 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN trained on CIFAR-10 (60k images, 10 classes) — custom architecture with Conv2D, MaxPooling & Dense layers |
+| # | Project | Tech | Highlights |
+|:---:|---------|:----:|------------|
+| 1 | [**💬 Sentiment Analysis App**](https://github.com/Tahir-MD/YOUR-SENTIMENT-REPO-NAME) | `Python` `NLP` `NLTK` `Streamlit` | Real-time text sentiment classifier deployed live on Streamlit Cloud |
+| 2 | [**🧾 Invoice Generator App**](https://github.com/Tahir-MD/YOUR-INVOICE-REPO-NAME) | `Python` `Streamlit` `Jinja2` `FPDF` | Auto-generates professional PDF invoices from user inputs — deployed live |
 
-</div>
+### 🆕 Recent Internship Projects
 
-<div align="center">
+| # | Project | Tech | Highlights |
+|:---:|---------|:----:|------------|
+| 3 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `Transformers` `NLTK` | 4 NLP tasks: IMDB Sentiment (88.5% acc), News Classification (AG News 120k), BBC Topic Modeling, AI Resume Screener |
+| 4 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Loan default prediction on 32,581 records — Tuned Random Forest **93% accuracy** |
+| 5 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN on CIFAR-10 (60k images, 10 classes) — CV Internship @ NextEra Solutions |
 
-### 🏆 Top Classic Projects
+### 🏆 Classic & Academic Projects
 
-| # | Project | Tech | What It Does |
-|:---:|---------|:----:|--------------|
-| 4 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated university exam scheduling system — handles clashes, room allocation & timetable generation |
-| 5 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full Data Structures & Algorithms implementation — trees, graphs, sorting, searching |
-
-</div>
-
-<div align="center">
-
-### 📌 All Repositories → [View on GitHub](https://github.com/Tahir-MD?tab=repositories)
-
-> 💡 **22 total repositories** covering Computer Vision, NLP, ML, Deep Learning, DSA & more
+| # | Project | Tech | Highlights |
+|:---:|---------|:----:|------------|
+| 6 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated exam scheduling — handles clashes, room allocation & timetable generation |
+| 7 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full DSA implementation — trees, graphs, sorting, searching algorithms |
 
 </div>
 
@@ -140,7 +161,7 @@ class TahirMahmood:
 <tr>
 <td width="50%" valign="top">
 
-### 📊 NLP — Resume Screening (Elevo Task 4)
+### 📊 NLP — Resume Screener (Elevo Task 4)
 ```
 Candidate        | ML Engineer Match
 -----------------|------------------
@@ -243,7 +264,8 @@ feature engineering & hyperparameter tuning.
 
 <div align="center">
 
-> 💡 *Open to collaborating on **Computer Vision**, **AI/ML projects**, **research**, or **open-source contributions**.*
+> 💡 *Open to **Computer Vision**, **AI/ML**, **Streamlit apps**, **research** or **open-source** collaborations*
+> 📍 Based in **Sukkur, Sindh, Pakistan 🇵🇰**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahir-mahmood-781b93329/)
 [![Gmail](https://img.shields.io/badge/Gmail-Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tahirdool67@gmail.com)
@@ -252,6 +274,6 @@ feature engineering & hyperparameter tuning.
 
 ---
 
-*"Code. Learn. Build. Repeat." 🔁*
+*"Code. Learn. Build. Deploy. Repeat." 🔁*
 
 </div>
