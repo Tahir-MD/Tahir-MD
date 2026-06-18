@@ -38,7 +38,7 @@ class TahirMahmood:
     username   = "Tahir-MD"
     university = "Aror University"
     degree     = "BS Artificial Intelligence"
-    location   = "Pakistan 🇵🇰 (Remote 🏠)"
+    location   = "Sukkur, Sindh Pakistan 🇵🇰 🏠"
 
     focus = [
         "Computer Vision",
