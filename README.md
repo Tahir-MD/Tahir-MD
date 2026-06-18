@@ -114,8 +114,8 @@ class TahirMahmood:
 
 | 🚀 App | Description | Tech | Live Demo |
 |:------:|-------------|:----:|:---------:|
-| 💬 **Sentiment Analysis App** | Analyzes text sentiment — Positive, Negative or Neutral in real-time | `Python` `NLP` `NLTK` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://github.com/Tahir-MD/YOUR-SENTIMENT-REPO-NAME) |
-| 🧾 **Invoice Generator App** | Generates professional invoices as PDF with custom templates | `Python` `Streamlit` `Jinja2` `FPDF` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://github.com/Tahir-MD/YOUR-INVOICE-REPO-NAME) |
+| 💬 **Sentiment Analysis App** | Analyzes text sentiment — Positive, Negative or Neutral in real-time | `Python` `NLP` `NLTK` `Streamlit` | [![Streamlit]([https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white](https://tahir-md-sentiment-analyzer-app-lm0oxi.streamlit.app/))](https://github.com/Tahir-MD/YOUR-SENTIMENT-REPO-NAME) |
+| 🧾 **Invoice Generator App** | Generates professional invoices as PDF with custom templates | `Python` `Streamlit` `Jinja2` `FPDF` | [![Streamlit]([https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white](https://tahir-md-invoice-extractor-app-yn5cs2.streamlit.app/))](https://github.com/Tahir-MD/YOUR-INVOICE-REPO-NAME) |
 
 </div>
 
