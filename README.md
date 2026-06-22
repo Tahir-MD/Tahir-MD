@@ -114,9 +114,9 @@ class TahirMahmood:
 
 | 🚀 App | Description | Tech | Live Demo |
 |:------:|-------------|:----:|:---------:|
-| 💬 **Sentiment Analysis App** | Analyzes text sentiment — Positive, Negative or Neutral in real-time | `Python` `NLP` `NLTK` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-sentiment-analyzer-app-lm0oxi.streamlit.app/) |
-| 🧾 **Invoice Generator App** | Generates professional invoices as PDF with custom templates | `Python` `Streamlit` `Jinja2` `FPDF` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-invoice-extractor-app-yn5cs2.streamlit.app/) |
-
+| 💬 **Sentiment Analysis App** | AI-powered sentiment analysis — classifies text as Positive, Negative or Neutral in real-time with detailed insights | `Python` `NLP` `NLTK` `TextBlob` `VADER` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-sentiment-analyzer-app-lm0oxi.streamlit.app/) |
+| 🧾 **Invoice Extractor App** | Extracts and analyzes invoice data — revenue insights, product performance, customer analytics, and business recommendations | `Python` `Pandas` `Plotly` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-invoice-extractor-app-yn5cs2.streamlit.app/) |
+| 📝 **Form Digitizer App** | Digitizes handwritten and printed forms — perfect for NGOs, Schools & Clinics with OCR technology | `Python` `EasyOCR` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://form-digitizer-app.streamlit.app/) |
 
 </div>
 
@@ -134,8 +134,8 @@ class TahirMahmood:
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 1 | [**💬 Sentiment Analysis App**](https://github.com/Tahir-MD/YOUR-SENTIMENT-REPO-NAME) | `Python` `NLP` `NLTK` `Streamlit` | Real-time text sentiment classifier deployed live on Streamlit Cloud |
-| 2 | [**🧾 Invoice Generator App**](https://github.com/Tahir-MD/YOUR-INVOICE-REPO-NAME) | `Python` `Streamlit` `Jinja2` `FPDF` | Auto-generates professional PDF invoices from user inputs — deployed live |
+| 1 | [**💬 Sentiment Analysis App**](https://github.com/Tahir-MD/sentiment-analyzer) | `Python` `NLP` `NLTK` `Streamlit` | Real-time text sentiment classifier deployed live on Streamlit Cloud |
+| 2 | [**🧾 Invoice Generator App**](https://github.com/Tahir-MD/invoice-extractor) | `Python` `Streamlit` `Jinja2` `FPDF` | Auto-generates professional PDF invoices from user inputs — deployed live |
 
 ### 🆕 Recent Internship Projects
 
