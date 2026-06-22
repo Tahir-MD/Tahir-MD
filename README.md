@@ -119,9 +119,6 @@ class TahirMahmood:
 | 📝 **Form Digitizer App** | Digitizes handwritten and printed forms — perfect for NGOs, Schools & Clinics with OCR technology | `Python` `EasyOCR` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-form-digitizer-app-xwrpy7.streamlit.app/) |
 
 </div>
-
-> 📝 **Note to Tahir:** Replace `YOUR-SENTIMENT-REPO-NAME` and `YOUR-INVOICE-REPO-NAME` above with your actual repo names, and replace the badge links with your actual Streamlit Cloud URLs (e.g. `https://your-app.streamlit.app`)
-
 ---
 
 ## 🚀 Top 10 Projects
