@@ -136,6 +136,7 @@ class TahirMahmood:
 |:---:|---------|:----:|------------|
 | 1 | [**💬 Sentiment Analysis App**](https://github.com/Tahir-MD/sentiment-analyzer) | `Python` `NLP` `NLTK` `Streamlit` | Real-time text sentiment classifier deployed live on Streamlit Cloud |
 | 2 | [**🧾 Invoice Generator App**](https://github.com/Tahir-MD/invoice-extractor) | `Python` `Streamlit` `Jinja2` `FPDF` | Auto-generates professional PDF invoices from user inputs — deployed live |
+| 3 | [**📝 Form Digitizer App**](https://github.com/Tahir-MD/form-digitizer) | `Python` `EasyOCR` `OpenCV` `Streamlit` | AI-powered OCR for handwritten/printed forms — deployed live for NGOs, Schools & Clinics |
 
 ### 🆕 Recent Internship Projects
 
