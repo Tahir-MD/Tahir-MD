@@ -116,7 +116,7 @@ class TahirMahmood:
 |:------:|-------------|:----:|:---------:|
 | 💬 **Sentiment Analysis App** | AI-powered sentiment analysis — classifies text as Positive, Negative or Neutral in real-time with detailed insights | `Python` `NLP` `NLTK` `TextBlob` `VADER` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-sentiment-analyzer-app-lm0oxi.streamlit.app/) |
 | 🧾 **Invoice Extractor App** | Extracts and analyzes invoice data — revenue insights, product performance, customer analytics, and business recommendations | `Python` `Pandas` `Plotly` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-invoice-extractor-app-yn5cs2.streamlit.app/) |
-| 📝 **Form Digitizer App** | Digitizes handwritten and printed forms — perfect for NGOs, Schools & Clinics with OCR technology | `Python` `EasyOCR` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)]([https://form-digitizer-app.streamlit.app/](https://tahir-md-form-digitizer-app-xwrpy7.streamlit.app/)) |
+| 📝 **Form Digitizer App** | Digitizes handwritten and printed forms — perfect for NGOs, Schools & Clinics with OCR technology | `Python` `EasyOCR` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-form-digitizer-app-xwrpy7.streamlit.app/) |
 
 </div>
 
