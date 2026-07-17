@@ -250,15 +250,73 @@ feature engineering and hyperparameter tuning.
 
 ## 🐍 Contribution Snake
 
-<div align="center">
+<p align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake.svg"/>
-  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
+  <img alt="GitHub Snake" width="100%" src="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
 </picture>
 
-</div>
+</p>
+
+---
+
+<details open>
+  <summary><h2>🏅 Certificates and Achievements</h2></summary>
+
+<p align="left">
+  <a href="assets/google_ai.png">
+    <img width="200" src="assets/google_ai.png" alt="Google AI">
+  </a>
+  <a href="assets/google_ai_essential.png">
+    <img width="200" src="assets/google_ai_essential.png" alt="Google AI Essentials">
+  </a>
+  <a href="assets/google_prompt_essential.png">
+    <img width="200" src="assets/google_prompt_essential.png" alt="Google Prompting Essentials">
+  </a>
+  <a href="assets/google_advance_data_analytics.png">
+    <img width="200" src="assets/google_advance_data_analytics.png" alt="Google Advanced Data Analytics">
+  </a>
+  <br>
+  <a href="assets/google_business_intelligence.png">
+    <img width="200" src="assets/google_business_intelligence.png" alt="Google Business Intelligence">
+  </a>
+  <a href="assets/google_cyber_security.png">
+    <img width="200" src="assets/google_cyber_security.png" alt="Google Cyber Security">
+  </a>
+  <a href="assets/google_it_automation.png">
+    <img width="200" src="assets/google_it_automation.png" alt="Google IT Automation">
+  </a>
+  <a href="assets/google_it_support.png">
+    <img width="200" src="assets/google_it_support.png" alt="Google IT Support">
+  </a>
+  <br>
+  <a href="assets/google_digital_marketing.png">
+    <img width="200" src="assets/google_digital_marketing.png" alt="Google Digital Marketing">
+  </a>
+  <a href="assets/google_agile_essential.png">
+    <img width="200" src="assets/google_agile_essential.png" alt="Google Agile Essentials">
+  </a>
+  <a href="assets/google_people_management.png">
+    <img width="200" src="assets/google_people_management.png" alt="Google People Management">
+  </a>
+  <a href="assets/google_ux_design.png">
+    <img width="200" src="assets/google_ux_design.png" alt="Google UX Design">
+  </a>
+  <br>
+  <a href="assets/hec_chort_3.png">
+    <img width="200" src="assets/hec_chort_3.png" alt="HEC Generative AI Hackathon Cohort 3">
+  </a>
+  <a href="assets/pitp_cyber.jpg">
+    <img width="200" src="assets/pitp_cyber.jpg" alt="PITP Cyber Security Certificate">
+  </a>
+  <a href="assets/qwetrum_tech.jpg">
+    <img width="200" src="assets/qwetrum_tech.jpg" alt="QWETRUM Technologies Certificate">
+  </a>
+</p>
+
+</details>
 
 ---
 
