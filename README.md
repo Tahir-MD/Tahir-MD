@@ -57,7 +57,11 @@ class TahirMahmood:
 
     deployed_apps = [
         "Sentiment Analysis App → Streamlit 🌐",
-        "Invoice Generator App  → Streamlit 🌐",
+        "Invoice Extractor App → Streamlit 🌐",
+        "Form Digitizer App → Streamlit 🌐",
+        "School Management System App → Streamlit 🌐",
+        "Traffic Sign Recognition System App → Streamlit 🌐",
+        "Sentinel Vision App → Streamlit 🌐",
     ]
 
     currently_learning = [
@@ -112,22 +116,26 @@ class TahirMahmood:
 
 ## 🌐 Live Deployed Apps
 
-> ✅ **Production apps built & deployed on Streamlit Cloud**
+> ✅ **Production apps built and deployed on Streamlit Cloud**
 
 <div align="center">
 
 | 🚀 App | Description | Tech | Live Demo |
 |:------:|-------------|:----:|:---------:|
-| 💬 **Sentiment Analysis App** | AI-powered sentiment analysis — classifies text as Positive, Negative or Neutral in real-time with detailed insights | `Python` `NLP` `NLTK` `TextBlob` `VADER` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-sentiment-analyzer-app-lm0oxi.streamlit.app/) |
-| 🧾 **Invoice Extractor App** | Extracts and analyzes invoice data — revenue insights, product performance, customer analytics, and business recommendations | `Python` `Pandas` `Plotly` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-invoice-extractor-app-yn5cs2.streamlit.app/) |
-| 📝 **Form Digitizer App** | Digitizes handwritten and printed forms — perfect for NGOs, Schools & Clinics with OCR technology | `Python` `EasyOCR` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-form-digitizer-app-xwrpy7.streamlit.app/) |
+| 💬 **Sentiment Analysis App** | AI powered sentiment analysis that classifies text as Positive, Negative or Neutral in real time with detailed insights | `Python` `NLP` `NLTK` `TextBlob` `VADER` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-sentiment-analyzer-app-lm0oxi.streamlit.app/) |
+| 🧾 **Invoice Extractor App** | Extracts and analyzes invoice data with revenue insights, product performance, customer analytics, and business recommendations | `Python` `Pandas` `Plotly` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-invoice-extractor-app-yn5cs2.streamlit.app/) |
+| 📝 **Form Digitizer App** | Digitizes handwritten and printed forms, built for NGOs, Schools and Clinics with OCR technology | `Python` `EasyOCR` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-form-digitizer-app-xwrpy7.streamlit.app/) |
+| 🏫 **School Management System App** | A full school management system covering student records, classes, attendance, and administration in one dashboard | `Python` `Pandas` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-school-management-system-app-mkwktq.streamlit.app/) |
+| 🚦 **Traffic Sign Recognition System App** | Detects and classifies traffic signs from images using a trained deep learning model | `Python` `TensorFlow` `CNN` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-traffic-sign-recognition-system-app-sy3wao.streamlit.app/) |
+| 🛡️ **Sentinel Vision App** | AI powered visual monitoring system built for spotting safety issues and anomalies from a video or image feed | `Python` `OpenCV` `Deep Learning` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-sentinel-vision-app-kmhbno.streamlit.app/) |
 
 </div>
+
 ---
 
-## 🚀 Top 10 Projects
+## 🚀 Top Projects
 
-> 🔥 Mix of **deployed apps**, **recent internship work** & **best classic projects**
+> 🔥 Mix of **deployed apps**, **recent internship work**, and **best classic projects**
 
 <div align="center">
 
@@ -135,24 +143,27 @@ class TahirMahmood:
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 1 | [**💬 Sentiment Analysis App**](https://github.com/Tahir-MD/sentiment-analyzer) | `Python` `NLP` `NLTK` `Streamlit` | Real-time text sentiment classifier deployed live on Streamlit Cloud |
-| 2 | [**🧾 Invoice Generator App**](https://github.com/Tahir-MD/invoice-extractor) | `Python` `Streamlit` `Jinja2` `FPDF` | Auto-generates professional PDF invoices from user inputs — deployed live |
-| 3 | [**📝 Form Digitizer App**](https://github.com/Tahir-MD/form-digitizer) | `Python` `EasyOCR` `OpenCV` `Streamlit` | AI-powered OCR for handwritten/printed forms — deployed live for NGOs, Schools & Clinics |
+| 1 | [**💬 Sentiment Analysis App**](https://github.com/Tahir-MD/sentiment-analyzer) | `Python` `NLP` `NLTK` `Streamlit` | Real time text sentiment classifier deployed live on Streamlit Cloud |
+| 2 | [**🧾 Invoice Extractor App**](https://github.com/Tahir-MD/invoice-extractor) | `Python` `Streamlit` `Jinja2` `FPDF` | Extracts invoice data and auto generates business insights, deployed live |
+| 3 | [**📝 Form Digitizer App**](https://github.com/Tahir-MD/form-digitizer) | `Python` `EasyOCR` `OpenCV` `Streamlit` | AI powered OCR for handwritten and printed forms, deployed live for NGOs, Schools and Clinics |
+| 4 | [**🏫 School Management System App**](https://tahir-md-school-management-system-app-mkwktq.streamlit.app/) | `Python` `Pandas` `Streamlit` | Full dashboard for managing students, classes, and attendance, deployed live |
+| 5 | [**🚦 Traffic Sign Recognition System App**](https://tahir-md-traffic-sign-recognition-system-app-sy3wao.streamlit.app/) | `Python` `TensorFlow` `CNN` `Streamlit` | Deep learning model that identifies traffic signs from uploaded images, deployed live |
+| 6 | [**🛡️ Sentinel Vision App**](https://tahir-md-sentinel-vision-app-kmhbno.streamlit.app/) | `Python` `OpenCV` `Deep Learning` `Streamlit` | Computer vision based monitoring system for safety and anomaly detection, deployed live |
 
 ### 🆕 Recent Internship Projects
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 3 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `Transformers` `NLTK` | 4 NLP tasks: IMDB Sentiment (88.5% acc), News Classification (AG News 120k), BBC Topic Modeling, AI Resume Screener |
-| 4 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Loan default prediction on 32,581 records — Tuned Random Forest **93% accuracy** |
-| 5 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN on CIFAR-10 (60k images, 10 classes) — CV Internship @ NextEra Solutions |
+| 7 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `Transformers` `NLTK` | 4 NLP tasks: IMDB Sentiment (88.5% accuracy), News Classification (AG News 120k), BBC Topic Modeling, AI Resume Screener |
+| 8 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Loan default prediction on 32,581 records, Tuned Random Forest reaching **93 percent accuracy** |
+| 9 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN on CIFAR 10 (60k images, 10 classes), built during the CV Internship at NextEra Solutions |
 
-### 🏆 Classic & Academic Projects
+### 🏆 Classic and Academic Projects
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 6 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated exam scheduling — handles clashes, room allocation & timetable generation |
-| 7 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full DSA implementation — trees, graphs, sorting, searching algorithms |
+| 10 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated exam scheduling that handles clashes, room allocation, and timetable generation |
+| 11 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full data structures and algorithms implementation covering trees, graphs, sorting, and searching |
 
 </div>
 
@@ -189,7 +200,7 @@ Random Forest      | 92%
 Tuned RF ⭐        | 93%  ← Best
 ```
 Built on **32,581 records** with full
-feature engineering & hyperparameter tuning.
+feature engineering and hyperparameter tuning.
 
 </td>
 </tr>
@@ -247,8 +258,6 @@ feature engineering & hyperparameter tuning.
   <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Tahir-MD/Tahir-MD/snake/github-snake-dark.svg"/>
 </picture>
 
-> ⚙️ Enable the snake: add [Platane/snk Action](https://github.com/Platane/snk) — takes 2 minutes!
-
 </div>
 
 ---
@@ -263,11 +272,11 @@ feature engineering & hyperparameter tuning.
 
 ---
 
-## 🤝 Let's Connect & Collaborate
+## 🤝 Let's Connect and Collaborate
 
 <div align="center">
 
-> 💡 *Open to **Computer Vision**, **AI/ML**, **Streamlit apps**, **research** or **open-source** collaborations*
+> 💡 *Open to **Computer Vision**, **AI/ML**, **Streamlit apps**, **research**, or **open source** collaborations*
 > 📍 Based in **Sukkur, Sindh, Pakistan 🇵🇰**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahir-mahmood-781b93329/)
