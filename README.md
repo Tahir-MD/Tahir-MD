@@ -314,6 +314,9 @@ feature engineering and hyperparameter tuning.
   <a href="assets/qwetrum_tech.jpg">
     <img width="200" src="assets/qwetrum_tech.jpg" alt="QWETRUM Technologies Certificate">
   </a>
+  <a href="assets/qwetrum_tech.jpg">
+    <img width="200" src="assets/DeadLock-TMD-Certificate.png" alt="AI Explain You Science">
+  </a>
 </p>
 
 </details>
