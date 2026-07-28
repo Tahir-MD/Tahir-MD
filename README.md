@@ -322,7 +322,11 @@ feature engineering and hyperparameter tuning.
   </a>
     <a href="assets/qwetrum_tech.jpg">
     <img width="200" src="assets/cyber.jpeg" alt="AI Explain You Science">
-  </a>  
+  </a> 
+  </a>
+    <a href="assets/qwetrum_tech.jpg">
+    <img width="200" src="assets/new.jpeg" alt="AI Explain You Science">
+  </a> 
 </p>
 
 </details>
