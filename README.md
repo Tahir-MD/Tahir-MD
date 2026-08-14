@@ -314,18 +314,26 @@ feature engineering and hyperparameter tuning.
   <a href="assets/qwetrum_tech.jpg">
     <img width="200" src="assets/qwetrum_tech.jpg" alt="QWETRUM Technologies Certificate">
   </a>
-  <a href="assets/qwetrum_tech.jpg">
+  <a href="assets/DeadLock-TMD-Certificate.png">
     <img width="200" src="assets/DeadLock-TMD-Certificate.png" alt="AI Explain You Science">
   </a>
-     <a href="assets/qwetrum_tech.jpg">
+     <a href="assets/ctf.jpeg">
     <img width="200" src="assets/ctf.jpeg" alt="AI Explain You Science">
   </a>
-    <a href="assets/qwetrum_tech.jpg">
+    <a href="assets/cyber.jpeg">
     <img width="200" src="assets/cyber.jpeg" alt="AI Explain You Science">
   </a> 
   </a>
-    <a href="assets/qwetrum_tech.jpg">
+    <a href="assets/new.jpeg">
     <img width="200" src="assets/new.jpeg" alt="AI Explain You Science">
+  </a>
+  </a>
+    <a href="assets/elevvo_nlp.jpg">
+    <img width="200" src="assets/elvvo_nlp.jpg" alt="Elevvo Pathways">
+  </a>
+  </a>
+    <a href="assets/IoT.jpg">
+    <img width="200" src="assets/IoT.jpg" alt="Microvision">
   </a> 
 </p>
 
