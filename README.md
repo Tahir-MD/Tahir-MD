@@ -329,7 +329,7 @@ feature engineering and hyperparameter tuning.
   </a>
   </a>
     <a href="assets/elevvo_nlp.jpg">
-    <img width="200" src="assets/elvvo_nlp.jpg" alt="Elevvo Pathways">
+    <img width="200" src="assets/elevvo_nlp.jpg" alt="Elevvo Pathways">
   </a>
   </a>
     <a href="assets/IoT.jpg">
