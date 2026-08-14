@@ -26,7 +26,7 @@
 ---
 ## 🌐 Live Interactive Portfolios
 * 🚀 **Primary Deployment (Netlify):** [tahir-portfolio-50.netlify.app](https://tahir-portfolio-50.netlify.app/)
-* ⚡ **Production Mirror (Vercel):** [tahir-portfolio-self.vercel.app](https://tahir-mahmood-portfolio.vercel.app/)
+* ⚡ **Production Mirror (Vercel):** [tahirmd.vercel.app](https://tahirmd.vercel.app/)
 ---
 
 ## 🧬 About Me
