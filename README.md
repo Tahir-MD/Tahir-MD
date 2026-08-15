@@ -334,6 +334,22 @@ feature engineering and hyperparameter tuning.
   </a>
     <a href="assets/IoT.jpg">
     <img width="200" src="assets/IoT.jpg" alt="Microvision">
+  </a>
+  </a>
+    <a href="assets/claude_code_0.png">
+    <img width="200" src="assets/claude_code_0.png" alt="FlyRank Anthropic Academy Certifications">
+  </a>
+  </a>
+    <a href="assets/claude_code_1.png">
+    <img width="200" src="assets/claude_code_1.png" alt="FlyRank Anthropic Academy Certifications">
+  </a>
+  </a>
+    <a href="assets/claude_code_2.png">
+    <img width="200" src="assets/claude_code_2.png" alt="FlyRank Anthropic Academy Certifications">
+  </a>
+  </a>
+    <a href="assets/claude_code_3.png">
+    <img width="200" src="assets/claude_code_3.png" alt="FlyRank Anthropic Academy Certifications">
   </a> 
 </p>
 
