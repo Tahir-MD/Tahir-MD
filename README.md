@@ -350,6 +350,14 @@ feature engineering and hyperparameter tuning.
   </a>
     <a href="assets/claude_code_3.png">
     <img width="200" src="assets/claude_code_3.png" alt="FlyRank Anthropic Academy Certifications">
+  </a>
+  </a>
+    <a href="assets/CCEP.png">
+    <img width="200" src="assets/CCEP.png" alt="Red Team Leader">
+  </a>
+  </a>
+    <a href="assets/n5_intern.png">
+    <img width="200" src="assets/n5_intern.png" alt="NeuroFive Solution Internship">
   </a> 
 </p>
 
