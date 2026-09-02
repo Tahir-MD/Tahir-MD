@@ -358,6 +358,10 @@ feature engineering and hyperparameter tuning.
   </a>
     <a href="assets/n5_intern.png">
     <img width="200" src="assets/n5_intern.png" alt="NeuroFive Solution Internship">
+  </a>
+  </a>
+    <a href="assets/ai.jpeg">
+    <img width="200" src="assets/ai.jpeg" alt="AI Explain You Science">
   </a> 
 </p>
 
