@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tahir Mahmood — AI Engineer, Computer Vision &amp; NLP</title>
+<meta name="description" content="Tahir Mahmood, an artificial intelligence engineer focused on computer vision, natural language processing and applied machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F2E9;
+    --paper-2:#EFEADD;
+    --ink:#181B22;
+    --ink-soft:#4B4E58;
+    --ink-faint:#8A8879;
+    --line:#DED7C4;
+    --line-strong:#C9C1A9;
+    --accent:#2B5F63;
+    --accent-soft:#DDE7E3;
+    --brass:#A56A38;
+    --dark:#12141B;
+    --dark-2:#1B1E28;
+    --dark-line:#30333f;
+    --dark-text:#EDE9DD;
+    --dark-dim:#9A9C9F;
+    --font-display:'Fraunces', serif;
+    --font-body:'Inter', sans-serif;
+    --font-mono:'IBM Plex Mono', monospace;
+    --maxw:1160px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--font-body);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 40px;}
+  ::selection{background:var(--accent); color:var(--paper);}
+  ::-webkit-scrollbar{width:10px;}
+  ::-webkit-scrollbar-track{background:var(--paper);}
+  ::-webkit-scrollbar-thumb{background:var(--line-strong); border-radius:6px;}
+
+  /* ---------- header ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(246,242,233,.88);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex; align-items:center; justify-content:space-between; padding:18px 40px; max-width:var(--maxw); margin:0 auto;}
+  .logo{display:flex; align-items:center; gap:10px; font-family:var(--font-display); font-weight:600; font-size:17px; color:var(--ink);}
+  .logo .mark{
+    width:30px; height:30px; border-radius:50%; border:1.4px solid var(--ink);
+    display:flex; align-items:center; justify-content:center; font-family:var(--font-mono);
+    font-size:10.5px; letter-spacing:.02em; flex-shrink:0;
+  }
+  .navlinks{display:flex; gap:34px; font-size:13.5px; color:var(--ink-soft);}
+  .navlinks a{position:relative; padding-bottom:3px; transition:color .2s;}
+  .navlinks a::after{content:""; position:absolute; left:0; right:100%; bottom:0; height:1px; background:var(--accent); transition:right .25s ease;}
+  .navlinks a:hover{color:var(--ink);}
+  .navlinks a:hover::after{right:0;}
+  .nav-cta{
+    font-size:13px; color:var(--paper); background:var(--ink);
+    padding:10px 18px; font-weight:500; border-radius:3px; transition:.2s; border:1px solid var(--ink);
+  }
+  .nav-cta:hover{background:var(--accent); border-color:var(--accent);}
+
+  /* ---------- hero ---------- */
+  .hero{background:var(--dark); color:var(--dark-text); padding:96px 0 100px; position:relative; overflow:hidden;}
+  .hero::before{
+    content:""; position:absolute; inset:0; pointer-events:none; opacity:.5;
+    background-image:radial-gradient(circle at 1px 1px, rgba(237,233,221,.05) 1px, transparent 0);
+    background-size:26px 26px;
+  }
+  .hero-grid{display:grid; grid-template-columns:1.15fr .85fr; gap:60px; align-items:center; position:relative; z-index:1;}
+  .status-row{display:flex; align-items:center; gap:9px; font-family:var(--font-mono); font-size:11.5px; color:var(--dark-dim); margin-bottom:28px; letter-spacing:.03em; text-transform:uppercase;}
+  .status-row .ring{width:6px; height:6px; border-radius:50%; background:#7FBF9E; box-shadow:0 0 8px #7FBF9E; animation:pulse 2.2s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;} 50%{opacity:.35;}}
+
+  h1.name{
+    font-family:var(--font-display); font-weight:600; font-size:clamp(40px,5.2vw,64px);
+    letter-spacing:-.01em; line-height:1.03; margin-bottom:16px; color:var(--dark-text);
+  }
+  .role{font-size:16px; color:#A9C6C4; margin-bottom:22px; font-weight:500;}
+  .hero-desc{max-width:480px; color:var(--dark-dim); font-size:15px; margin-bottom:34px;}
+  .hero-actions{display:flex; gap:12px; flex-wrap:wrap;}
+  .btn{
+    font-size:13.5px; padding:13px 22px; display:inline-flex; align-items:center; gap:8px;
+    transition:.2s; font-weight:500; border-radius:3px; border:1px solid transparent;
+  }
+  .btn-primary{background:#A9C6C4; color:var(--dark);}
+  .btn-primary:hover{background:#c2d8d6; transform:translateY(-1px);}
+  .btn-outline-dark{color:var(--dark-text); border-color:var(--dark-line);}
+  .btn-outline-dark:hover{border-color:var(--dark-text);}
+  .btn-outline{color:var(--ink); border-color:var(--line-strong);}
+  .btn-outline:hover{border-color:var(--ink);}
+
+  /* lens diagram */
+  .lens-wrap{position:relative; display:flex; align-items:center; justify-content:center;}
+  .lens-wrap svg{width:100%; max-width:400px; height:auto; overflow:visible;}
+  .lens-ring-outer{fill:none; stroke:var(--dark-line); stroke-width:1;}
+  .lens-ring-mid{fill:none; stroke:#3A3F4C; stroke-width:1;}
+  .blade{fill:#A9C6C4; opacity:.14; transform-origin:200px 200px;}
+  .blade-stroke{fill:none; stroke:#A9C6C4; stroke-width:1; opacity:.55; transform-origin:200px 200px;}
+  .spin-group{animation:spin 60s linear infinite; transform-origin:200px 200px;}
+  .core-dot{fill:#A9C6C4;}
+  .lens-label{font-family:var(--font-mono); font-size:11px; fill:#9A9C9F; letter-spacing:.04em;}
+  .lens-tick{stroke:var(--dark-line); stroke-width:1;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  @media (prefers-reduced-motion: reduce){ .spin-group{animation:none;} }
+
+  /* ---------- sections ---------- */
+  section{padding:92px 0; border-bottom:1px solid var(--line);}
+  .eyebrow{
+    font-family:var(--font-mono); font-size:11.5px; color:var(--brass); letter-spacing:.12em;
+    text-transform:uppercase; margin-bottom:16px; display:flex; align-items:center; gap:12px;
+  }
+  .eyebrow::after{content:""; flex:0 0 60px; height:1px; background:var(--line-strong);}
+  h2.h-title{
+    font-family:var(--font-display); font-weight:600; font-size:clamp(26px,3.2vw,38px);
+    margin-bottom:48px; letter-spacing:-.01em; max-width:680px; color:var(--ink); line-height:1.15;
+  }
+
+  /* about */
+  .about-grid{display:grid; grid-template-columns:1.5fr 1fr; gap:64px;}
+  .about-grid p{color:var(--ink-soft); margin-bottom:17px; font-size:15px;}
+  .about-grid p strong{color:var(--ink); font-weight:600;}
+  .side-block{margin-bottom:34px;}
+  .side-block h4{font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.1em; margin-bottom:14px;}
+  .tag-row{display:flex; flex-wrap:wrap; gap:9px;}
+  .tag{font-size:12.5px; padding:7px 13px; border:1px solid var(--line-strong); color:var(--ink-soft); border-radius:20px; transition:.2s;}
+  .tag:hover{border-color:var(--accent); color:var(--accent);}
+  .lang-row{display:flex; flex-direction:column; gap:11px;}
+  .lang-item{display:flex; justify-content:space-between; font-size:13.5px; color:var(--ink-soft); border-bottom:1px solid var(--line); padding-bottom:10px;}
+  .lang-item b{color:var(--ink); font-weight:600;}
+  .lang-item span{font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.04em;}
+
+  /* experience */
+  .timeline{position:relative;}
+  .timeline::before{content:""; position:absolute; left:7px; top:8px; bottom:8px; width:1px; background:var(--line-strong);}
+  .tl-item{position:relative; padding:0 0 40px 40px;}
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-item::before{content:""; position:absolute; left:0; top:6px; width:15px; height:15px; border-radius:50%; background:var(--paper); border:1.5px solid var(--accent);}
+  .tl-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:12px; margin-bottom:4px;}
+  .tl-role{font-family:var(--font-display); font-weight:600; font-size:19px; color:var(--ink);}
+  .tl-date{font-family:var(--font-mono); font-size:11.5px; color:var(--ink-faint); margin-left:auto;}
+  .tl-org{color:var(--brass); font-size:13px; margin-bottom:10px; display:block; font-weight:500;}
+  .tl-desc{color:var(--ink-soft); font-size:14px; max-width:640px;}
+  .tl-desc ul{margin-top:8px; padding-left:18px;}
+  .tl-desc li{margin-bottom:6px;}
+  .tl-desc li::marker{color:var(--accent);}
+
+  /* skills */
+  .skills-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:6px; overflow:hidden;}
+  .skill-card{background:var(--paper); padding:28px 26px; transition:.2s;}
+  .skill-card:hover{background:#fbf9f3;}
+  .skill-card h4{font-family:var(--font-display); font-weight:600; font-size:15.5px; color:var(--ink); margin-bottom:16px;}
+  .skill-card ul{list-style:none;}
+  .skill-card li{color:var(--ink-soft); font-size:13.3px; padding:5px 0; padding-left:15px; position:relative;}
+  .skill-card li::before{content:""; position:absolute; left:0; top:13px; width:5px; height:1px; background:var(--ink-faint);}
+
+  /* projects */
+  .proj-cat{margin-bottom:56px;}
+  .proj-cat:last-child{margin-bottom:0;}
+  .proj-cat-title{font-family:var(--font-mono); font-size:11.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.09em; margin-bottom:20px; padding-bottom:11px; border-bottom:1px solid var(--line);}
+  .proj-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
+  .proj-card{
+    background:var(--paper); border:1px solid var(--line); border-radius:6px; padding:24px 26px;
+    display:flex; flex-direction:column; transition:.25s; position:relative;
+  }
+  .proj-card:hover{border-color:var(--line-strong); box-shadow:0 10px 28px -18px rgba(24,27,34,.35); transform:translateY(-2px);}
+  .proj-top{display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:11px; gap:14px;}
+  .proj-name{font-family:var(--font-display); font-weight:600; font-size:17px; color:var(--ink);}
+  .proj-badge{font-size:10.5px; color:var(--accent); background:var(--accent-soft); white-space:nowrap; padding:4px 10px; border-radius:20px; font-weight:500; letter-spacing:.02em;}
+  .proj-desc{color:var(--ink-soft); font-size:13.3px; margin-bottom:18px; flex:1;}
+  .proj-tags{display:flex; flex-wrap:wrap; gap:7px; margin-bottom:18px;}
+  .proj-tags span{font-size:11px; color:var(--ink-faint); border:1px solid var(--line); padding:4px 9px; border-radius:3px;}
+  .proj-links{display:flex; gap:20px; font-size:12.5px;}
+  .proj-links a{color:var(--ink-soft); display:flex; align-items:center; gap:5px; transition:.2s; border-bottom:1px solid transparent; font-weight:500;}
+  .proj-links a:hover{color:var(--accent); border-color:var(--accent);}
+
+  .archive-note{
+    margin-top:36px; padding:22px 26px; border:1px solid var(--line); border-radius:6px;
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;
+    font-size:13.3px; color:var(--ink-soft); background:var(--paper-2);
+  }
+  .archive-note a{color:var(--accent); border-bottom:1px solid var(--accent); font-weight:500;}
+
+  /* education */
+  .edu-list{border:1px solid var(--line); border-radius:6px; overflow:hidden; background:var(--paper);}
+  .edu-item{display:grid; grid-template-columns:160px 1fr; gap:22px; padding:22px 26px; border-bottom:1px solid var(--line);}
+  .edu-item:last-child{border-bottom:none;}
+  .edu-date{font-family:var(--font-mono); font-size:12px; color:var(--ink-faint); padding-top:2px;}
+  .edu-name{font-family:var(--font-display); font-weight:600; font-size:16.5px; margin-bottom:4px; color:var(--ink);}
+  .edu-place{color:var(--ink-soft); font-size:13.3px;}
+
+  /* contact */
+  #contact{background:var(--dark); color:var(--dark-text); border-bottom:none;}
+  #contact .eyebrow{color:#B48A5F;}
+  #contact .eyebrow::after{background:var(--dark-line);}
+  .contact-wrap{display:grid; grid-template-columns:1.2fr 1fr; gap:60px; align-items:start;}
+  .contact-lead{font-family:var(--font-display); font-size:clamp(26px,3.4vw,38px); font-weight:600; line-height:1.18; margin-bottom:20px; color:var(--dark-text);}
+  .contact-sub{color:var(--dark-dim); font-size:14.5px; max-width:440px; margin-bottom:30px;}
+  .contact-primary{display:flex; gap:12px; flex-wrap:wrap;}
+  .social-grid{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--dark-line); border:1px solid var(--dark-line); border-radius:6px; overflow:hidden;}
+  .social-item{background:var(--dark-2); padding:17px 19px; display:flex; flex-direction:column; gap:5px; transition:.2s;}
+  .social-item:hover{background:#232734;}
+  .social-item .s-label{font-family:var(--font-mono); font-size:10px; color:var(--dark-dim); text-transform:uppercase; letter-spacing:.08em;}
+  .social-item .s-val{font-size:13px; color:var(--dark-text);}
+  .social-item:hover .s-val{color:#A9C6C4;}
+
+  footer{padding:30px; text-align:center; font-size:12px; color:var(--ink-faint); background:var(--paper);}
+
+  @media (max-width:900px){
+    .navlinks{display:none;}
+    .hero-grid{grid-template-columns:1fr; text-align:left;}
+    .lens-wrap{max-width:280px; margin:0 auto;}
+    .about-grid{grid-template-columns:1fr;}
+    .skills-grid{grid-template-columns:1fr 1fr;}
+    .proj-grid{grid-template-columns:1fr;}
+    .contact-wrap{grid-template-columns:1fr;}
+    .social-grid{grid-template-columns:1fr;}
+    .edu-item{grid-template-columns:1fr; gap:6px;}
+    .tl-date{margin-left:0;}
+  }
+  @media (max-width:560px){
+    .wrap, .nav{padding-left:22px; padding-right:22px;}
+    .skills-grid{grid-template-columns:1fr;}
+    .hero{padding:70px 0 76px;}
+    section{padding:64px 0;}
+  }
+
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1; transform:none;}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1; transform:none; transition:none;}
+    .ring{animation:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#top" class="logo"><span class="mark">TM</span>Tahir Mahmood</a>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero" style="border-top:none;">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <div class="status-row"><span class="ring"></span>Open to internships &amp; graduate roles · Sukkur, Pakistan</div>
+
+          <h1 class="name">Tahir Mahmood</h1>
+          <div class="role">Artificial Intelligence Engineer — Computer Vision &amp; Natural Language Processing</div>
+          <p class="hero-desc">
+            Final-year Bachelor of Science student in Artificial Intelligence at Aror University. I build working
+            machine learning systems end to end, from raw data through to a deployed application someone can
+            actually open and use.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View projects</a>
+            <a href="#contact" class="btn btn-outline-dark">Get in touch</a>
+            <a href="https://github.com/Tahir-MD" target="_blank" rel="noopener" class="btn btn-outline-dark">GitHub</a>
+          </div>
+        </div>
+
+        <div class="lens-wrap">
+          <svg viewBox="0 0 400 400">
+            <circle class="lens-ring-outer" cx="200" cy="200" r="172"/>
+            <circle class="lens-ring-mid" cx="200" cy="200" r="132"/>
+            <g class="lens-tick-group">
+              <!-- tick marks around outer ring -->
+              <g stroke="#30333f" stroke-width="1">
+                <line x1="200" y1="24" x2="200" y2="36"/>
+                <line x1="200" y1="364" x2="200" y2="376"/>
+                <line x1="24" y1="200" x2="36" y2="200"/>
+                <line x1="364" y1="200" x2="376" y2="200"/>
+              </g>
+            </g>
+            <g class="spin-group">
+              <g class="blade" transform="rotate(0)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade" transform="rotate(60)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade" transform="rotate(120)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade" transform="rotate(180)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade" transform="rotate(240)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade" transform="rotate(300)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade-stroke" transform="rotate(0)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade-stroke" transform="rotate(60)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade-stroke" transform="rotate(120)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade-stroke" transform="rotate(180)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade-stroke" transform="rotate(240)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+              <g class="blade-stroke" transform="rotate(300)"><path d="M200,200 L200,84 L232,96 Z"/></g>
+            </g>
+            <circle class="core-dot" cx="200" cy="200" r="3"/>
+
+            <line x1="200" y1="28" x2="200" y2="8" class="lens-tick"/>
+            <text class="lens-label" x="200" y="20" text-anchor="middle">Computer Vision</text>
+
+            <line x1="372" y1="200" x2="392" y2="200" class="lens-tick"/>
+            <text class="lens-label" x="330" y="196" text-anchor="end">Natural Language</text>
+            <text class="lens-label" x="330" y="210" text-anchor="end">Processing</text>
+
+            <line x1="200" y1="372" x2="200" y2="392" class="lens-tick"/>
+            <text class="lens-label" x="200" y="398" text-anchor="middle">Applied ML</text>
+
+            <line x1="28" y1="200" x2="8" y2="200" class="lens-tick"/>
+            <text class="lens-label" x="70" y="196" text-anchor="start">Deployment &amp;</text>
+            <text class="lens-label" x="70" y="210" text-anchor="start">Delivery</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="eyebrow">About</div>
+      <h2 class="h-title">I build systems that turn information into something useful</h2>
+      <div class="about-grid">
+        <div class="reveal">
+          <p>
+            My work centers on <strong>machine learning</strong>, <strong>computer vision</strong> and
+            <strong>natural language processing</strong>. I care about the full path from messy raw data to a
+            finished, deployed tool, not only the modeling step in the middle.
+          </p>
+          <p>
+            I work daily with Python and Pandas alongside deep learning frameworks. My projects cover predictive
+            modeling, text classification, sentiment analysis, document intelligence built on optical character
+            recognition, and image-based detection systems. Several of these are live today and open for anyone
+            to try.
+          </p>
+          <p>
+            I have completed internships in natural language processing, computer vision and data analysis, and I
+            am currently working through several parallel internships in generative artificial intelligence,
+            machine learning and applied research. I am looking for a team where I can keep contributing to
+            meaningful artificial intelligence work while growing as both an engineer and a researcher.
+          </p>
+        </div>
+        <div class="reveal">
+          <div class="side-block">
+            <h4>Certifications</h4>
+            <div class="tag-row">
+              <span class="tag">Google Data Analytics</span>
+              <span class="tag">Business Intelligence</span>
+              <span class="tag">IT Automation</span>
+              <span class="tag">Cybersecurity</span>
+              <span class="tag">UX Design</span>
+              <span class="tag">Digital Marketing</span>
+            </div>
+          </div>
+          <div class="side-block">
+            <h4>Languages</h4>
+            <div class="lang-row">
+              <div class="lang-item"><b>Urdu</b><span>Native</span></div>
+              <div class="lang-item"><b>Saraiki</b><span>Native</span></div>
+              <div class="lang-item"><b>Sindhi</b><span>Native</span></div>
+              <div class="lang-item"><b>Hindi</b><span>Fluent</span></div>
+              <div class="lang-item"><b>English</b><span>Professional</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="eyebrow">Experience</div>
+      <h2 class="h-title">Where I have worked, and what I learned there</h2>
+      <div class="timeline reveal">
+
+        <div class="tl-item">
+          <div class="tl-head"><span class="tl-role">Data Analyst Intern</span><span class="tl-date">Jun 2026 – Jul 2026</span></div>
+          <span class="tl-org">QWETRUM Technologies · Sukkur</span>
+          <div class="tl-desc">Applied data analysis techniques to support real decisions, cleaning, exploring and reporting on datasets so that stakeholders could act on clear findings.</div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-head"><span class="tl-role">Natural Language Processing Intern</span><span class="tl-date">Feb 2026 – Mar 2026</span></div>
+          <span class="tl-org">Elevvo Pathways · Remote</span>
+          <div class="tl-desc">
+            <ul>
+              <li>Selected for a fully sponsored, competitive natural language processing track</li>
+              <li>Worked hands-on with industry-standard tools through a project-based curriculum</li>
+              <li>Built text processing pipelines and deployed working artificial intelligence applications</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-head"><span class="tl-role">Backend Development Intern</span><span class="tl-date">Jan 2026 – Feb 2026</span></div>
+          <span class="tl-org">The NextEra Solution with Technology Company · Sukkur</span>
+          <div class="tl-desc">Backend engineering work supporting the company's product pipeline, including a convolutional neural network built for CIFAR-10 image classification.</div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-head"><span class="tl-role">Mathematics Teacher</span><span class="tl-date">2018 – 2025</span></div>
+          <span class="tl-org">Al Habib Public School · Thul, Sindh</span>
+          <div class="tl-desc">Taught mathematics for seven and a half years, building a lasting foundation in clear communication and structured problem solving that still shapes how I explain technical work today.</div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-head"><span class="tl-role">Social Mobilizer</span><span class="tl-date">Jul 2019 – Dec 2019</span></div>
+          <span class="tl-org">EPI · Thul, Sindh</span>
+          <div class="tl-desc">Community outreach work supporting local public health initiatives.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="eyebrow">Skills</div>
+      <h2 class="h-title">The tools I reach for</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <h4>Computer Vision</h4>
+          <ul>
+            <li>Image processing</li>
+            <li>Convolutional neural networks with TensorFlow</li>
+            <li>OpenCV pipelines</li>
+            <li>YOLOv8 detection</li>
+            <li>Vision transformers</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Language &amp; Text</h4>
+          <ul>
+            <li>Text classification</li>
+            <li>Sentiment analysis</li>
+            <li>Text preprocessing</li>
+            <li>Optical character recognition &amp; document intelligence</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Data &amp; Modeling</h4>
+          <ul>
+            <li>Python, Pandas, NumPy</li>
+            <li>Scikit-learn</li>
+            <li>SQL</li>
+            <li>Matplotlib, Seaborn</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>IoT &amp; Edge</h4>
+          <ul>
+            <li>Sensor integration</li>
+            <li>Edge computing</li>
+            <li>Embedded systems</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Deployment</h4>
+          <ul>
+            <li>Streamlit applications</li>
+            <li>SQLite &amp; relational databases</li>
+            <li>Git &amp; GitHub</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Tooling</h4>
+          <ul>
+            <li>Python, Java</li>
+            <li>VS Code, PyCharm</li>
+            <li>Streamlit Community Cloud</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="eyebrow">Projects</div>
+      <h2 class="h-title">A working record, from notebook to deployed application</h2>
+
+      <div class="proj-cat reveal">
+        <div class="proj-cat-title">Computer Vision &amp; Medical AI</div>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Skin Cancer Detection</span><span class="proj-badge">Computer Vision</span></div>
+            <div class="proj-desc">A deep learning classifier that analyzes dermatoscopic images to flag likely malignant skin lesions, supporting earlier screening.</div>
+            <div class="proj-tags"><span>Python</span><span>TensorFlow</span><span>CNN</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/skin-cancer-detection-ai" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Brain Tumor Detection</span><span class="proj-badge">Computer Vision</span></div>
+            <div class="proj-desc">A convolutional neural network system that detects and classifies brain tumors directly from MRI scan images.</div>
+            <div class="proj-tags"><span>Python</span><span>TensorFlow</span><span>CNN</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/Brain_Tumor_Detection" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Traffic Sign Recognition</span><span class="proj-badge">Live Application</span></div>
+            <div class="proj-desc">A real-time computer vision system that classifies road traffic signs from images, built for perception tasks similar to those in autonomous driving.</div>
+            <div class="proj-tags"><span>Python</span><span>CNN</span><span>Streamlit</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Tahir-MD/traffic-sign-recognition-system" target="_blank" rel="noopener">Repository →</a>
+              <a href="https://tahir-md-traffic-sign-recognition-system-app-sy3wao.streamlit.app/" target="_blank" rel="noopener">Live demo →</a>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">CIFAR-10 Image Recognition</span><span class="proj-badge">Internship Work</span></div>
+            <div class="proj-desc">A convolutional neural network built during the NextEra internship to classify CIFAR-10 images from start to finish.</div>
+            <div class="proj-tags"><span>Python</span><span>TensorFlow</span><span>CNN</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/NextEraSolution_Image_Recognition" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="proj-cat reveal">
+        <div class="proj-cat-title">Document Intelligence &amp; OCR</div>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Invoice Extractor</span><span class="proj-badge">Live Application</span></div>
+            <div class="proj-desc">An optical character recognition application that pulls structured data — vendor names, totals and line items — out of invoice images and PDF files automatically.</div>
+            <div class="proj-tags"><span>Python</span><span>OCR</span><span>Streamlit</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Tahir-MD/invoice-extractor" target="_blank" rel="noopener">Repository →</a>
+              <a href="https://tahir-md-invoice-extractor-app-yn5cs2.streamlit.app/" target="_blank" rel="noopener">Live demo →</a>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Form Digitizer</span><span class="proj-badge">Live Application</span></div>
+            <div class="proj-desc">Converts scanned or handwritten forms into structured, searchable digital data using optical character recognition.</div>
+            <div class="proj-tags"><span>Python</span><span>OCR</span><span>Streamlit</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Tahir-MD/form-digitizer" target="_blank" rel="noopener">Repository →</a>
+              <a href="https://tahir-md-form-digitizer-app-xwrpy7.streamlit.app/" target="_blank" rel="noopener">Live demo →</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="proj-cat reveal">
+        <div class="proj-cat-title">Language &amp; Sentiment</div>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Sentiment Analyzer</span><span class="proj-badge">Live Application</span></div>
+            <div class="proj-desc">A text classification application that scores the sentiment of any text a person submits, in real time.</div>
+            <div class="proj-tags"><span>Python</span><span>NLP</span><span>Streamlit</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Tahir-MD/sentiment-analyzer" target="_blank" rel="noopener">Repository →</a>
+              <a href="https://tahir-md-sentiment-analyzer-app-lm0oxi.streamlit.app/" target="_blank" rel="noopener">Live demo →</a>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">NLP Internship Projects</span><span class="proj-badge">Internship Work</span></div>
+            <div class="proj-desc">Text processing and classification pipelines built during the Elevvo Pathways natural language processing track.</div>
+            <div class="proj-tags"><span>Python</span><span>NLP</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/Elevo_NLP_Intership" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Machine Learning Internship Tasks</span><span class="proj-badge">Internship Work</span></div>
+            <div class="proj-desc">Applied machine learning tasks and model-building exercises completed during an internship at CodeAlpha.</div>
+            <div class="proj-tags"><span>Python</span><span>Scikit-learn</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/CodeAlpha_ML_Intership" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="proj-cat reveal">
+        <div class="proj-cat-title">Security &amp; Privacy</div>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Sentinel Vision Pro</span><span class="proj-badge">Live Application</span></div>
+            <div class="proj-desc">A privacy and security tool combining computer vision with cybersecurity practice, offering real-time threat detection, face anonymization and gesture-controlled shield modes.</div>
+            <div class="proj-tags"><span>Python</span><span>YOLOv8</span><span>OpenCV</span><span>Streamlit</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Tahir-MD/sentinel-vision" target="_blank" rel="noopener">Repository →</a>
+              <a href="https://tahir-md-sentinel-vision-app-kmhbno.streamlit.app/" target="_blank" rel="noopener">Live demo →</a>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Educational Keylogger</span><span class="proj-badge">Educational</span></div>
+            <div class="proj-desc">An educational cybersecurity project demonstrating keylogging mechanics purely for security awareness training.</div>
+            <div class="proj-tags"><span>Python</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/Educational-Keylogger-Project" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="proj-cat reveal">
+        <div class="proj-cat-title">Full-Stack Systems &amp; Academic Projects</div>
+        <div class="proj-grid">
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">School Management System</span><span class="proj-badge">Live Application</span></div>
+            <div class="proj-desc">A role-based school management application for administrators, teachers and students, covering attendance, grading, fee tracking and timetables.</div>
+            <div class="proj-tags"><span>Python</span><span>Streamlit</span><span>SQLite</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Tahir-MD/school-management-system" target="_blank" rel="noopener">Repository →</a>
+              <a href="https://tahir-md-school-management-system-app-mkwktq.streamlit.app/" target="_blank" rel="noopener">Live demo →</a>
+            </div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Restaurant Management System</span><span class="proj-badge">Academic</span></div>
+            <div class="proj-desc">A management system handling orders, billing and day-to-day restaurant operations.</div>
+            <div class="proj-tags"><span>Java</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/RestaurantManagement" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Railway Reservation System</span><span class="proj-badge">Academic</span></div>
+            <div class="proj-desc">A ticket booking and reservation system modeling railway seat allocation from end to end.</div>
+            <div class="proj-tags"><span>Java</span><span>SQL</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/RailwayReservationSystem" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">University Exam Scheduler</span><span class="proj-badge">Academic</span></div>
+            <div class="proj-desc">A scheduling system for university examinations, backed by structured SQL data.</div>
+            <div class="proj-tags"><span>SQL</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/University-Exam-Scheduler" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+          <div class="proj-card">
+            <div class="proj-top"><span class="proj-name">Data Structures &amp; Algorithms Project</span><span class="proj-badge">Academic</span></div>
+            <div class="proj-desc">A data structures and algorithms project built for a university semester course.</div>
+            <div class="proj-tags"><span>Java</span></div>
+            <div class="proj-links"><a href="https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT" target="_blank" rel="noopener">Repository →</a></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="archive-note reveal">
+        <span>There is more on GitHub than fits here, along with several live Streamlit applications you can open right now.</span>
+        <span style="display:flex; gap:22px;">
+          <a href="https://github.com/Tahir-MD" target="_blank" rel="noopener">Full GitHub archive →</a>
+          <a href="https://share.streamlit.io/user/tahir-md" target="_blank" rel="noopener">All Streamlit apps →</a>
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <div class="eyebrow">Education</div>
+      <h2 class="h-title">Academic background</h2>
+      <div class="edu-list reveal">
+        <div class="edu-item">
+          <div class="edu-date">2023 – 2027</div>
+          <div>
+            <div class="edu-name">Bachelor of Science, Artificial Intelligence</div>
+            <div class="edu-place">Aror University of Art, Architecture, Design and Heritage, Sukkur</div>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-date">2019 – 2021</div>
+          <div>
+            <div class="edu-name">Intermediate, Pre-Medical Studies</div>
+            <div class="edu-place">Government Degree College, Thul</div>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-date">2017 – 2019</div>
+          <div>
+            <div class="edu-name">Matriculation, General Science</div>
+            <div class="edu-place">Government AQS High School, Thul</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="border-bottom:none;">
+    <div class="wrap">
+      <div class="eyebrow">Contact</div>
+      <div class="contact-wrap">
+        <div class="reveal">
+          <div class="contact-lead">Let's build something worth using.</div>
+          <p class="contact-sub">I am open to internships, collaborations and research opportunities in computer vision, natural language processing and applied machine learning.</p>
+          <div class="contact-primary">
+            <a href="mailto:tahirdool67@gmail.com" class="btn btn-primary">Email me</a>
+            <a href="https://wa.me/923054773174" target="_blank" rel="noopener" class="btn btn-outline-dark">WhatsApp</a>
+            <a href="tel:03192429525" class="btn btn-outline-dark">Call</a>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="social-grid">
+            <a class="social-item" href="https://www.linkedin.com/in/tahir-mahmood-781b93329/" target="_blank" rel="noopener">
+              <span class="s-label">LinkedIn</span><span class="s-val">Tahir Mahmood</span>
+            </a>
+            <a class="social-item" href="https://github.com/Tahir-MD" target="_blank" rel="noopener">
+              <span class="s-label">GitHub</span><span class="s-val">Tahir-MD</span>
+            </a>
+            <a class="social-item" href="https://share.streamlit.io/user/tahir-md" target="_blank" rel="noopener">
+              <span class="s-label">Streamlit</span><span class="s-val">tahir-md</span>
+            </a>
+            <a class="social-item" href="https://www.facebook.com/tahir.d.m.dool.2025" target="_blank" rel="noopener">
+              <span class="s-label">Facebook</span><span class="s-val">Tahir Mahmood</span>
+            </a>
+            <a class="social-item" href="https://www.instagram.com/tahir_dmd/" target="_blank" rel="noopener">
+              <span class="s-label">Instagram</span><span class="s-val">tahir_dmd</span>
+            </a>
+            <a class="social-item" href="mailto:tahirdool67@gmail.com">
+              <span class="s-label">Email</span><span class="s-val">tahirdool67@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>Tahir Mahmood · Sukkur, Sindh, Pakistan</footer>
+
+<script>
+  const els = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{threshold:.12});
+  els.forEach(el=>io.observe(el));
+</script>
+
+</body>
+</html>
