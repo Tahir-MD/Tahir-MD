@@ -362,7 +362,14 @@ feature engineering and hyperparameter tuning.
   </a>
     <a href="assets/ai.jpeg">
     <img width="200" src="assets/ai.jpeg" alt="AI Explain You Science">
-  </a> 
+  </a>
+    <a href="assets/cyborts.png">
+    <img width="200" src="assets/cyborts.png" alt="CYBORTS">
+  </a>
+  </a>
+    <a href="assets/flyrank.png">
+    <img width="200" src="assets/flyrank.png" alt="FlyRank AI">
+  </a>
 </p>
 
 </details>
