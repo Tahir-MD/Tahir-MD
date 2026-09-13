@@ -47,12 +47,14 @@ class TahirMahmood:
         "Deep Learning",
         "Generative AI",
         "NLP",
+        "Agentic AI & Claude-powered Automation",
     ]
 
     completed_internships = [
         "ML Intern @ CodeAlpha",
         "NLP Intern @ Elevo",
         "CV Intern @ NextEra Solutions",
+        "Intern @ NeuroFive Solutions",
     ]
 
     deployed_apps = [
@@ -62,6 +64,9 @@ class TahirMahmood:
         "School Management System App → Streamlit 🌐",
         "Traffic Sign Recognition System App → Streamlit 🌐",
         "Sentinel Vision App → Streamlit 🌐",
+        "ResumeFit AI → Streamlit 🌐",
+        "CodeAutopsy → Streamlit 🌐",
+        "Nova IT Helpdesk Assistant → Streamlit 🌐",
     ]
 
     currently_learning = [
@@ -69,6 +74,7 @@ class TahirMahmood:
         "MLOps & Model Deployment",
         "Transformer Models",
         "Cloud AI Services",
+        "Claude Agent SDK & AI-Powered Dev Tools",
     ]
 
     fun_fact = "My models learn faster than I learn new recipes 🍳"
@@ -93,6 +99,10 @@ class TahirMahmood:
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
+### 🤖 AI Agents & LLM Tooling
+![Anthropic](https://img.shields.io/badge/Claude-Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/LLM%20Integrations-412991?style=for-the-badge&logo=openai&logoColor=white)
+
 ### 🌐 Web & Deployment
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -107,9 +117,11 @@ class TahirMahmood:
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
 
 ---
@@ -128,6 +140,9 @@ class TahirMahmood:
 | 🏫 **School Management System App** | A full school management system covering student records, classes, attendance, and administration in one dashboard | `Python` `Pandas` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-school-management-system-app-mkwktq.streamlit.app/) |
 | 🚦 **Traffic Sign Recognition System App** | Detects and classifies traffic signs from images using a trained deep learning model | `Python` `TensorFlow` `CNN` `OpenCV` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-traffic-sign-recognition-system-app-sy3wao.streamlit.app/) |
 | 🛡️ **Sentinel Vision App** | AI powered visual monitoring system built for spotting safety issues and anomalies from a video or image feed | `Python` `OpenCV` `Deep Learning` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-sentinel-vision-app-kmhbno.streamlit.app/) |
+| 📄 **ResumeFit AI** | NLP + ML powered resume-to-job matcher that scores resume/JD alignment, highlights matched vs. missing skills, and classifies resumes into job categories, ATS-style | `Python` `NLP` `TF-IDF` `Scikit-learn` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-resumefit-ai--app-hojbuw.streamlit.app/) |
+| 🩺 **CodeAutopsy** | AI bug-fixing agent that reads failed build/test logs, diagnoses the root cause with Claude, generates a fix, and opens a real GitHub Pull Request explaining the fix | `Python` `Claude API` `GitHub API` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-codeautopsy-app-vrcfpf.streamlit.app/) |
+| 🎧 **Nova IT Helpdesk Assistant** | AI powered IT helpdesk assistant that understands support requests in natural language and guides users through common troubleshooting and IT service tasks | `Python` `LLM` `NLP` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md--nova-it-helpdesk-assistant-app-4ups4g.streamlit.app/) |
 
 </div>
 
@@ -135,7 +150,7 @@ class TahirMahmood:
 
 ## 🚀 Top Projects
 
-> 🔥 Mix of **deployed apps**, **recent internship work**, and **best classic projects**
+> 🔥 Mix of **deployed apps**, **AI agent tooling**, **recent internship work**, and **best classic projects**
 
 <div align="center">
 
@@ -149,21 +164,24 @@ class TahirMahmood:
 | 4 | [**🏫 School Management System App**](https://tahir-md-school-management-system-app-mkwktq.streamlit.app/) | `Python` `Pandas` `Streamlit` | Full dashboard for managing students, classes, and attendance, deployed live |
 | 5 | [**🚦 Traffic Sign Recognition System App**](https://tahir-md-traffic-sign-recognition-system-app-sy3wao.streamlit.app/) | `Python` `TensorFlow` `CNN` `Streamlit` | Deep learning model that identifies traffic signs from uploaded images, deployed live |
 | 6 | [**🛡️ Sentinel Vision App**](https://tahir-md-sentinel-vision-app-kmhbno.streamlit.app/) | `Python` `OpenCV` `Deep Learning` `Streamlit` | Computer vision based monitoring system for safety and anomaly detection, deployed live |
+| 7 | [**📄 ResumeFit AI**](https://tahir-md-resumefit-ai--app-hojbuw.streamlit.app/) | `Python` `NLP` `TF-IDF` `Scikit-learn` `Streamlit` | ATS-style resume/job-description match scorer with skill-gap analysis, deployed live |
+| 8 | [**🩺 CodeAutopsy**](https://github.com/Tahir-MD/CodeAutopsy) | `Python` `Claude API` `GitHub API` `Streamlit` | AI agent that diagnoses failed builds and auto-opens fix PRs, with a live Streamlit demo and full GitHub Actions automation |
+| 9 | [**🎧 Nova IT Helpdesk Assistant**](https://tahir-md--nova-it-helpdesk-assistant-app-4ups4g.streamlit.app/) | `Python` `LLM` `NLP` `Streamlit` | Conversational AI assistant for IT helpdesk triage and troubleshooting guidance, deployed live |
 
 ### 🆕 Recent Internship Projects
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 7 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `Transformers` `NLTK` | 4 NLP tasks: IMDB Sentiment (88.5% accuracy), News Classification (AG News 120k), BBC Topic Modeling, AI Resume Screener |
-| 8 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Loan default prediction on 32,581 records, Tuned Random Forest reaching **93 percent accuracy** |
-| 9 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN on CIFAR 10 (60k images, 10 classes), built during the CV Internship at NextEra Solutions |
+| 10 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `Transformers` `NLTK` | 4 NLP tasks: IMDB Sentiment (88.5% accuracy), News Classification (AG News 120k), BBC Topic Modeling, AI Resume Screener |
+| 11 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Loan default prediction on 32,581 records, Tuned Random Forest reaching **93 percent accuracy** |
+| 12 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN on CIFAR 10 (60k images, 10 classes), built during the CV Internship at NextEra Solutions |
 
 ### 🏆 Classic and Academic Projects
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 10 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated exam scheduling that handles clashes, room allocation, and timetable generation |
-| 11 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full data structures and algorithms implementation covering trees, graphs, sorting, and searching |
+| 13 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated exam scheduling that handles clashes, room allocation, and timetable generation |
+| 14 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full data structures and algorithms implementation covering trees, graphs, sorting, and searching |
 
 </div>
 
@@ -201,6 +219,43 @@ Tuned RF ⭐        | 93%  ← Best
 ```
 Built on **32,581 records** with full
 feature engineering and hyperparameter tuning.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🩺 AI Agent — CodeAutopsy
+```
+CI build fails
+   ↓
+log_analyzer.py   → parses error, file, line
+   ↓
+code_context.py   → pulls the buggy file
+   ↓
+ai_fixer.py        → Claude diagnoses + fixes
+   ↓
+github_handler.py → branch → commit → PR opened
+```
+End-to-end **self-healing CI/CD agent**: from a
+failing build to an explained, auto-opened Pull
+Request, with zero human debugging.
+
+</td>
+<td width="50%" valign="top">
+
+### 📄 NLP + ML — ResumeFit AI
+```
+Resume (PDF) + Job Description
+        ↓
+TF-IDF + Logistic Regression → job category
+        ↓
+Skill dictionary match        → present vs missing
+        ↓
+Blended Match Score            → ATS-style result
+```
+Transparent, explainable **ATS-style scoring**
+so candidates see exactly why they matched (or didn't).
 
 </td>
 </tr>
@@ -317,57 +372,46 @@ feature engineering and hyperparameter tuning.
   <a href="assets/DeadLock-TMD-Certificate.png">
     <img width="200" src="assets/DeadLock-TMD-Certificate.png" alt="AI Explain You Science">
   </a>
-     <a href="assets/ctf.jpeg">
+  <a href="assets/ctf.jpeg">
     <img width="200" src="assets/ctf.jpeg" alt="AI Explain You Science">
   </a>
-    <a href="assets/cyber.jpeg">
+  <a href="assets/cyber.jpeg">
     <img width="200" src="assets/cyber.jpeg" alt="AI Explain You Science">
-  </a> 
   </a>
-    <a href="assets/new.jpeg">
+  <a href="assets/new.jpeg">
     <img width="200" src="assets/new.jpeg" alt="AI Explain You Science">
   </a>
-  </a>
-    <a href="assets/elevvo_nlp.jpg">
+  <a href="assets/elevvo_nlp.jpg">
     <img width="200" src="assets/elevvo_nlp.jpg" alt="Elevvo Pathways">
   </a>
-  </a>
-    <a href="assets/IoT.jpg">
+  <a href="assets/IoT.jpg">
     <img width="200" src="assets/IoT.jpg" alt="Microvision">
   </a>
-  </a>
-    <a href="assets/claude_code_0.png">
+  <a href="assets/claude_code_0.png">
     <img width="200" src="assets/claude_code_0.png" alt="FlyRank Anthropic Academy Certifications">
   </a>
-  </a>
-    <a href="assets/claude_code_1.png">
+  <a href="assets/claude_code_1.png">
     <img width="200" src="assets/claude_code_1.png" alt="FlyRank Anthropic Academy Certifications">
   </a>
-  </a>
-    <a href="assets/claude_code_2.png">
+  <a href="assets/claude_code_2.png">
     <img width="200" src="assets/claude_code_2.png" alt="FlyRank Anthropic Academy Certifications">
   </a>
-  </a>
-    <a href="assets/claude_code_3.png">
+  <a href="assets/claude_code_3.png">
     <img width="200" src="assets/claude_code_3.png" alt="FlyRank Anthropic Academy Certifications">
   </a>
-  </a>
-    <a href="assets/CCEP.png">
+  <a href="assets/CCEP.png">
     <img width="200" src="assets/CCEP.png" alt="Red Team Leader">
   </a>
-  </a>
-    <a href="assets/n5_intern.png">
+  <a href="assets/n5_intern.png">
     <img width="200" src="assets/n5_intern.png" alt="NeuroFive Solution Internship">
   </a>
-  </a>
-    <a href="assets/ai.jpeg">
+  <a href="assets/ai.jpeg">
     <img width="200" src="assets/ai.jpeg" alt="AI Explain You Science">
   </a>
-    <a href="assets/cyborts.png">
+  <a href="assets/cyborts.png">
     <img width="200" src="assets/cyborts.png" alt="CYBORTS">
   </a>
-  </a>
-    <a href="assets/flyrank.png">
+  <a href="assets/flyrank.png">
     <img width="200" src="assets/flyrank.png" alt="FlyRank AI">
   </a>
 </p>
@@ -390,7 +434,7 @@ feature engineering and hyperparameter tuning.
 
 <div align="center">
 
-> 💡 *Open to **Computer Vision**, **AI/ML**, **Streamlit apps**, **research**, or **open source** collaborations*
+> 💡 *Open to **Computer Vision**, **AI/ML**, **AI Agents**, **Streamlit apps**, **research**, or **open source** collaborations*
 > 📍 Based in **Sukkur, Sindh, Pakistan 🇵🇰**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20With%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahir-mahmood-781b93329/)
