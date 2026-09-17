@@ -417,6 +417,9 @@ so candidates see exactly why they matched (or didn't).
   <a href="assets/akfp.png">
     <img width="200" src="assets/akfp.png" alt="Alkhidamat Foundation Pakistan">
   </a>
+  <a href="assets/mindx.png">
+    <img width="200" src="assets/mindx.png" alt="Mind x Machine: Beyond The Prompt">
+  </a>    
 </p>
 
 </details>
