@@ -51,10 +51,13 @@ class TahirMahmood:
     ]
 
     completed_internships = [
-        "ML Intern @ CodeAlpha",
         "NLP Intern @ Elevo",
-        "CV Intern @ NextEra Solutions",
-        "Intern @ NeuroFive Solutions",
+        "Generative AI and Prompt Engineering @ NeuroFive Solutions",
+        "IoT Intern @ Microvision",
+        "Machine Learning @ FlyRank",
+        "Alkhidamat Summer Internship @ Alkhidamat Foundation Pakistan",
+        "Data Analyst @ QWETRUM TECHNOLOGIES",
+        "Backend Development @ The NextEra Solution with Technology Company"
     ]
 
     deployed_apps = [
