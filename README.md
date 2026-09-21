@@ -419,7 +419,10 @@ so candidates see exactly why they matched (or didn't).
   </a>
   <a href="assets/mindx.png">
     <img width="200" src="assets/mindx.png" alt="Mind x Machine: Beyond The Prompt">
-  </a>    
+  </a>
+  <a href="assets/off.png">
+    <img width="200" src="assets/off.png" alt="Cyborts">
+  </a> 
 </p>
 
 </details>
