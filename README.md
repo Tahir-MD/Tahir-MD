@@ -425,7 +425,20 @@ so candidates see exactly why they matched (or didn't).
   </a>
   <a href="assets/off.png">
     <img width="200" src="assets/off.png" alt="Cyborts">
+  </a>
+  <a href="assets/tmd.jpeg">
+    <img width="200" src="assets/tmd.jpeg" alt="Women in Computer Science">
   </a> 
+  <a href="assets/ai.png">
+    <img width="200" src="assets/ai.png" alt="Women in Computer Science">
+  </a>
+  </a> 
+  <a href="assets/conf.jpeg">
+    <img width="200" src="assets/conf.jpeg" alt="AI in Science">
+  </a>
+  <a href="assets/goom.png">
+    <img width="200" src="assets/goom.png" alt="Coursera">
+  </a>
 </p>
 
 </details>
