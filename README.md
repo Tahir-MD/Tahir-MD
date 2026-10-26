@@ -70,6 +70,7 @@ class TahirMahmood:
         "ResumeFit AI → Streamlit 🌐",
         "CodeAutopsy → Streamlit 🌐",
         "Nova IT Helpdesk Assistant → Streamlit 🌐",
+        "LifeFlow Blood Network → Netlify 🌐",
     ]
 
     currently_learning = [
@@ -109,6 +110,7 @@ class TahirMahmood:
 ### 🌐 Web & Deployment
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ### 📊 Data Science
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -131,7 +133,7 @@ class TahirMahmood:
 
 ## 🌐 Live Deployed Apps
 
-> ✅ **Production apps built and deployed on Streamlit Cloud**
+> ✅ **Production apps built and deployed on Streamlit Cloud and Netlify**
 
 <div align="center">
 
@@ -146,6 +148,7 @@ class TahirMahmood:
 | 📄 **ResumeFit AI** | NLP + ML powered resume-to-job matcher that scores resume/JD alignment, highlights matched vs. missing skills, and classifies resumes into job categories, ATS-style | `Python` `NLP` `TF-IDF` `Scikit-learn` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-resumefit-ai--app-hojbuw.streamlit.app/) |
 | 🩺 **CodeAutopsy** | AI bug-fixing agent that reads failed build/test logs, diagnoses the root cause with Claude, generates a fix, and opens a real GitHub Pull Request explaining the fix | `Python` `Claude API` `GitHub API` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md-codeautopsy-app-vrcfpf.streamlit.app/) |
 | 🎧 **Nova IT Helpdesk Assistant** | AI powered IT helpdesk assistant that understands support requests in natural language and guides users through common troubleshooting and IT service tasks | `Python` `LLM` `NLP` `Streamlit` | [![Streamlit](https://img.shields.io/badge/Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://tahir-md--nova-it-helpdesk-assistant-app-4ups4g.streamlit.app/) |
+| 🩸 **LifeFlow Blood Network** | Blood donation network web app that connects blood donors with people who urgently need blood | `Web App` `Netlify` | [![Netlify](https://img.shields.io/badge/Live%20App-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://lifeflow-blood-network.netlify.app/) |
 
 </div>
 
@@ -157,7 +160,7 @@ class TahirMahmood:
 
 <div align="center">
 
-### 🌐 Deployed on Streamlit
+### 🌐 Deployed Apps
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
@@ -170,21 +173,22 @@ class TahirMahmood:
 | 7 | [**📄 ResumeFit AI**](https://tahir-md-resumefit-ai--app-hojbuw.streamlit.app/) | `Python` `NLP` `TF-IDF` `Scikit-learn` `Streamlit` | ATS-style resume/job-description match scorer with skill-gap analysis, deployed live |
 | 8 | [**🩺 CodeAutopsy**](https://github.com/Tahir-MD/CodeAutopsy) | `Python` `Claude API` `GitHub API` `Streamlit` | AI agent that diagnoses failed builds and auto-opens fix PRs, with a live Streamlit demo and full GitHub Actions automation |
 | 9 | [**🎧 Nova IT Helpdesk Assistant**](https://tahir-md--nova-it-helpdesk-assistant-app-4ups4g.streamlit.app/) | `Python` `LLM` `NLP` `Streamlit` | Conversational AI assistant for IT helpdesk triage and troubleshooting guidance, deployed live |
+| 10 | [**🩸 LifeFlow Blood Network**](https://lifeflow-blood-network.netlify.app/) | `Web App` `Netlify` | Blood donation network that connects donors with people in need, deployed live on Netlify |
 
 ### 🆕 Recent Internship Projects
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 10 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `Transformers` `NLTK` | 4 NLP tasks: IMDB Sentiment (88.5% accuracy), News Classification (AG News 120k), BBC Topic Modeling, AI Resume Screener |
-| 11 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Loan default prediction on 32,581 records, Tuned Random Forest reaching **93 percent accuracy** |
-| 12 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN on CIFAR 10 (60k images, 10 classes), built during the CV Internship at NextEra Solutions |
+| 11 | [**🗣️ Elevo NLP Internship**](https://github.com/Tahir-MD/Elevo_NLP_Intership) | `Python` `NLP` `Transformers` `NLTK` | 4 NLP tasks: IMDB Sentiment (88.5% accuracy), News Classification (AG News 120k), BBC Topic Modeling, AI Resume Screener |
+| 12 | [**💳 Credit Scoring Model**](https://github.com/Tahir-MD/CodeAlpha_ML_Intership) | `Python` `Scikit-learn` `Random Forest` | Loan default prediction on 32,581 records, Tuned Random Forest reaching **93 percent accuracy** |
+| 13 | [**👁️ Image Recognition CNN**](https://github.com/Tahir-MD/NextEraSolution_Image_Recognition) | `Python` `TensorFlow` `CNN` `Keras` | Deep CNN on CIFAR 10 (60k images, 10 classes), built during the CV Internship at NextEra Solutions |
 
 ### 🏆 Classic and Academic Projects
 
 | # | Project | Tech | Highlights |
 |:---:|---------|:----:|------------|
-| 13 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated exam scheduling that handles clashes, room allocation, and timetable generation |
-| 14 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full data structures and algorithms implementation covering trees, graphs, sorting, and searching |
+| 14 | [**🎓 University Exam Scheduler**](https://github.com/Tahir-MD/University-Exam-Scheduler) | `SQL` `Config` | Automated exam scheduling that handles clashes, room allocation, and timetable generation |
+| 15 | [**🏗️ DSA Semester Project**](https://github.com/Tahir-MD/DSA-SEMESTER-PROJECT) | `Java` | Full data structures and algorithms implementation covering trees, graphs, sorting, and searching |
 
 </div>
 
